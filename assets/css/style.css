@@ -245,7 +245,7 @@ hr{
     display: none;
 }
 
-#small {
+#smallOn {
     display: none;
 }
 
@@ -305,6 +305,7 @@ hr{
 
     #pageCard {
         width: 520px;
+        height: auto;
         margin-right: 0px;
         margin-left: 37px;
     }
@@ -312,17 +313,37 @@ hr{
     #top {
         position: static;
         width: 100%;
+        height: 156px;
     }
 
     #br{
         display:block;
     }
 
-    #right1 {
-        top:266px;
+    #smallOff {
+        display: none;
     }
 
-    #right2 {
-        top:410px;
+    #smallOn {
+        display: inline-block;
+    }
+
+    .resize {
+        width: 520px;
+        height: auto;
+    }
+
+    .scap{
+        width: 520px;
+        height: 39.33px;
+        text-align: center;
+        background-color: #4aaaa5;
+        color: white;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-weight: normal;
+        padding:15px 0 0 0;
+        margin: 0px;
+        position: relative;
+        top: 335px;
     }
 }
